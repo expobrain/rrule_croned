@@ -19,5 +19,5 @@ setup(
     author="Daniele Esposti <daniele.esposti@gmail.com>",
     package_dir={"": "src"},
     packages=find_namespace_packages(where="src"),
-    install_requires=["dataclasses>=0.6"],
+    install_requires=["dataclasses>=0.6", "python-dateutil>=2.8"],
 )
